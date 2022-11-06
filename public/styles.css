@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;900&family=Roboto+Slab:wght@500&family=Sacramento&family=Ubuntu&display=swap');
+
+
+.body{
+    text-align: center;
+}
+
+.navDiv{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+.navbar{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.Brand{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+ul .btn{
+    border-radius: 0;
+    margin: 0;
+}
+.news-cards{
+ padding-left: 10%;
+ padding-top: 2%;
+ padding-bottom: 10%;
+ background-color: #F5F5F5;
+ 
+}
+.news-cards h1{
+    font-size: 30px;
+    font-weight: lighter;
+    display: inline-block;
+    background-color: #F5F5F5;
+    color: black;
+    padding: 10px;
+    font-family: Montserrat;
+    
+}
+.rows{
+    background-color: #F5F5F5;
+}
+.card{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: Montserrat;
+    /* box-shadow: 3px 3px 5px grey; */
+}
+.card h5{
+    font-size: 25px;
+    font-weight: bold;
+}
+.card p{
+    font-weight: bold;
+    font-size: 13px;
+}
+.card-col{
+    /* padding-left: 10%; */
+}
+
+
+
+.infobody{
+    background-color: black;
+    color:white;
+    padding: 8%;
+    padding-bottom: 4%;
+}
+.infobody img{
+   width:100%;
+   border-radius: 30px;
+}
+.infobody h1{
+    font-size: 70px;
+    font-weight: bold;
+   
+}
+.infobody h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+.infobody h1:hover{
+    text-shadow: 2px 1px 3px white;
+}
+.heading-div{
+   padding: 4% 4%;
+}
+.img-div{
+    padding-left: 6%;
+    padding-bottom: 3%;
+}
+
+
+
+.contact{
+   text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
+    
+}
+.contact span{
+    color: white;
+    font-weight: light;
+}
+.contact h2{
+    color: grey;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width:706px){
+    .news-cards{
+        padding-left: auto;
+        padding-right: auto;
+    }
+}
