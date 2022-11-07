@@ -19,8 +19,8 @@ function Navbar(props){
           <button className="btn btn-danger" onClick={props.changeNewsCategory} value="technology">Technology</button>
         </ul>
         <form class="d-flex" role="search">
-        <input onChange={props.changeInput} class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-        <button onClick={props.changeQuery} class="btn btn-danger">🔎</button>
+        <input onChange={props.changeInput} class="form-control me-2" type="search" placeholder="search..." aria-label="Search"></input>
+        <button onClick={props.changeQuery} class="btn btn-outline-light">Search</button>
       </form>
       </div>
     </div>

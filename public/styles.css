@@ -76,12 +76,12 @@ ul .btn{
 }
 .infobody img{
    width:100%;
-   border-radius: 30px;
+   padding-top: 10%;
+
 }
 .infobody h1{
-    font-size: 70px;
+    font-size:75px;
     font-weight: bold;
-   
 }
 .infobody h2 {
     font-size: 30px;
@@ -122,5 +122,20 @@ ul .btn{
     .news-cards{
         padding-left: auto;
         padding-right: auto;
+    }
+    .infobody{
+        text-align: center;
+    }
+    .infobody h1{
+        padding-top: 40px;
+        font-size:50px;
+        font-weight: bold;
+    }
+    .infobody h2 {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .rows{
+        text-align: center;
     }
 }
