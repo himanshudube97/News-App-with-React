@@ -29,14 +29,16 @@ function App() {
    setnewsCategory("")
   }
   
+  const apiKey = process.env.REACT_APP_API_KEY;
+  
 
 
   useEffect(function () {
-    fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=04cf5f268a704007a03a43c3b0cf6960&category=' + newsCategory)
+    fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey='+ apiKey +'&category=' + newsCategory)
       .then((response) => response.json())
       .then((data) => { setNews(data.articles) });
     if (query !== "") {
-      fetch('https://newsapi.org/v2/everything?q=' + query + '&apiKey=04cf5f268a704007a03a43c3b0cf6960')
+      fetch('https://newsapi.org/v2/everything?q=' + query + '&apiKey=' + apiKey)
         .then((response) => { return response.json() })
         .then((data) => { setNews(data.articles) })
     }
